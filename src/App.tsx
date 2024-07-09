@@ -37,8 +37,8 @@ export default function App() {
         value={sortOrder}
         onChange={(e) => setSortOder(e.target.value as SortOrder)}
       >
-        <option value="asc">Stigande</option>
-        <option value="desc">Fallande</option>
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
       </select>
       <ul className="grid grid-cols-1 2xl:grid-cols-4 gap-8 justify-items-center mt-4">
         {sortedUsers.map((user) => (
