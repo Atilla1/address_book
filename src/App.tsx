@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <div className="m-10">
-      <h1 className="text-3xl">Användare</h1>
+      <h1 className="text-3xl">Users</h1>
       <input
         className="w-80 mt-2 p-2 border-2 border-neutral-500 rounded "
         placeholder="Search..."
